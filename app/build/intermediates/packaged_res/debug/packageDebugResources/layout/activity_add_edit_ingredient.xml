@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp">
+
+        <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Ingredient name"/>
+        <EditText android:id="@+id/etQuantity" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Quantity (number)" android:inputType="numberDecimal"/>
+        <EditText android:id="@+id/etUnit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Unit (e.g. g, pc)"/>
+        <EditText android:id="@+id/etExpiry" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Expiry (optional YYYY-MM-DD)"/>
+        <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save"/>
+
+    </LinearLayout>
+</ScrollView>

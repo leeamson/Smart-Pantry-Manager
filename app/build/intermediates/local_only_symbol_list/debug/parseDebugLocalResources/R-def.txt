@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+id btnAddIngredient
+id btnDelete
+id btnEdit
+id btnSave
+id btnSettings
+id btnSuggested
+id etExpiry
+id etName
+id etQuantity
+id etUnit
+id listSuggested
+id recyclerIngredients
+id txtIngredientName
+id txtIngredientQty
+id txtRecipeDetail
+id txtRecipeName
+layout activity_add_edit_ingredient
+layout activity_pantry_list
+layout activity_recipe_detail
+layout activity_settings
+layout activity_suggested_recipes
+layout item_ingredient
+string app_name
