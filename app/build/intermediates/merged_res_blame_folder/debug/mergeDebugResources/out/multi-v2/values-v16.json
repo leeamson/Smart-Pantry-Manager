@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.smartpantry.app-mergeDebugResources-27:/values-v16/values-v16.xml",
+            "outputFile": "com.richfield.smartpantry.app-mergeDebugResources-20:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/leemac/.gradle/caches/transforms-4/556edc2893255bcc9b2dad75028d3361/transformed/core-1.9.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/leemac/.gradle/caches/transforms-4/a637f3543abeb697cfdfa5d7129dcb6c/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/leemac/.gradle/caches/9.3.0/transforms/a691c4ea8790974f30ae4e17cb346437/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/leemac/.gradle/caches/9.3.0/transforms/342bc593bf2b14b505589481482f01ca/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smartpantry"
+    package="com.richfield.smartpantry"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,24 +9,25 @@
         android:targetSdkVersion="34" />
 
     <permission
-        android:name="com.example.smartpantry.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.richfield.smartpantry.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.example.smartpantry.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.richfield.smartpantry.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:label="Smart Pantry Manager"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        <activity android:name="com.example.smartpantry.ui.SettingsActivity" />
-        <activity android:name="com.example.smartpantry.ui.RecipeDetailActivity" />
-        <activity android:name="com.example.smartpantry.ui.SuggestedRecipesActivity" />
-        <activity android:name="com.example.smartpantry.ui.AddEditIngredientActivity" />
+        android:label="Smart Pantry"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.richfield.smartpantry.SettingsActivity" />
+        <activity android:name="com.richfield.smartpantry.RecipeDetailActivity" />
+        <activity android:name="com.richfield.smartpantry.SuggestedRecipesActivity" />
+        <activity android:name="com.richfield.smartpantry.EditIngredientActivity" />
         <activity
-            android:name="com.example.smartpantry.ui.PantryListActivity"
+            android:name="com.richfield.smartpantry.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +38,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.smartpantry.androidx-startup"
+            android:authorities="com.richfield.smartpantry.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

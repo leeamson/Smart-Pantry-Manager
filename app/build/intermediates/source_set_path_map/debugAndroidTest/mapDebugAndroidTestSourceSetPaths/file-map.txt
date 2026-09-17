@@ -1,0 +1,4 @@
+com.richfield.smartpantry.test.app-androidTest-0 /Users/leemac/workspaces/mobile_app_dev/app/build/generated/res/resValues/androidTest/debug
+com.richfield.smartpantry.test.app-mergeDebugAndroidTestResources-1 /Users/leemac/workspaces/mobile_app_dev/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.richfield.smartpantry.test.app-mergeDebugAndroidTestResources-2 /Users/leemac/workspaces/mobile_app_dev/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.richfield.smartpantry.test.app-debugAndroidTest-3 /Users/leemac/workspaces/mobile_app_dev/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
